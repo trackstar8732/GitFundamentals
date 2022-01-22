@@ -1,0 +1,124 @@
+html {
+    background-color: #ffffff;
+    font-size: 15px;/*defualt font size is 16px for most browsers*/
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    /* margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0; */
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #eeebe6;
+}
+
+/* h2 {
+    margin: 20px;
+    border: 10px solid red;
+    padding: 20px;
+    height: 200px;
+    width: 600px;
+} */
+
+h1,
+ h2,
+ h3 {
+    font-family: "Raleway" sans-serif;
+    color: #2a2a2a;
+}
+
+p,
+ li {
+    font-family: "Luxurious Roman", sans-serif;
+    color: #2a2a2a;
+    font-size: 1.5rem; 
+    /* so it is saying 1.5 * the root font size */
+    /*em - relative to the size of an "m" from the font you are using for this element.*/
+    line-height: 1.5;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2,
+h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    margin: 0 6rem 3rem 6 rem;
+    text-align: center;
+}
+
+header,
+ nav, 
+ footer, 
+ section {
+    padding: 1;
+}
+
+header {
+    background: linear-gradient(
+        to bottom right,
+        rgba(219, 127, 46, 0.25),
+        rgba(219, 127, 46, 1) 
+        ),
+        url(./assets/tiger.jpg)
+    }
+
+nav{
+    height: 3.25em;
+}
+
+nav ul {
+     /*Commas denote that we want to style "this" AND "tha". No commas state that we want to style an element WITHIN another element.*/
+display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    /* TRUST THE PROCESS! */
+}
+
+nav a {
+    font-size: 2rem;
+    height: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+nav a:hover {
+    color: #ffffff;
+    transition: all 1s ease; /*animation property Fun Bonus!*/
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 50em;
+    height: 50em;
+    margin: 10px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #291f09;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

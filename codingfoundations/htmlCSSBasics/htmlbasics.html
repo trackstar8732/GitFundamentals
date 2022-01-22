@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- This is where we will link our CSS style sheet. -->
+     <title>Animals</title>
+     <!-- <style>
+         body {
+             background-color: green;
+         }
+     </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Raleway:ital@1&display=swap"
+        rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+ </head>
+ 
+ <!-- This makes a comment. The browser will ignore comments. You can leave yourself or others notes about what the code is doing. -->
+ 
+ <!-- <body style="background-color: blue"> -->
+ <body>
+     <header>
+ 
+         <!-- Our <h1> heading below has an id that equals "top". We can use this to make a 'back to top' button at the bottom of our page. -->
+ 
+         <h1 id="top">Animals</h1>
+ 
+         <nav>
+             <ul>
+                 <li>
+                     <input type="text" placeholder="Search...">
+                     <input type="button" value="Search">
+                 </li>
+                 <li><a href="https://indianapoliszoo.com">ZOO</a></li>
+                 <li><a href="#">HOME</a></li>
+                 <li><a href="#">ABOUT</a></li>
+             </ul>
+             <!-- <ol>
+                 <h3>Animals...but with numbers.</h3>
+                 <li><a href="https://indianapoliszoo.com">ZOO</a></li>
+                 <li><a href="#">HOME</a></li>
+                 <li><a href="#">ABOUT</a></li>
+             </ol> -->
+         </nav>
+     </header>
+ 
+     <section>
+         <h2>Welcome to our Animals Page</h2>
+ 
+         <p>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore sunt cumque et earum accusantium! Quisquam,
+             reiciendis molestias omnis voluptates possimus soluta doloremque in quas magnam explicabo suscipit nostrum
+             repudiandae adipisci.
+ 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo qui velit modi quo quasi iste ipsam
+             est magnam numquam veritatis necessitatibus non saepe rem harum eos voluptate, quaerat libero?
+         </p>
+     </section>
+ 
+     <!-- <hr> creates a line break in our page. -->
+     <hr>
+ 
+     <div>
+         <h3>Animal images you can click to go to their favorite websites.</h3>
+ 
+         <!-- Notice target="_blank" in all of our <a> elements, this opens the link in a new tab. -->
+ <div id="images">
+     <a target="_blank" href="https://kids.nationalgeographic.com/animals/invertebrates/facts/praying-mantis">
+         <img src="./assets/mantis.jpg" alt="praying mantis">
+     </a>
+
+     <a target="_blank" href="https://www.pandaexpress.com/">
+         <img src="./assets/panda.jpg" alt="panda">
+     </a>
+
+     <!-- We're using a <br> here so our shark image shows up in its own row. We can do better with CSS, but this shows what <br> does. -->
+     <br>
+
+     <a target="_blank" href="https://google.com">
+         <img src="./assets/shark.jpg" alt="panda">
+     </a>
+
+     <a target="_blank" href="https://disney.com">
+         <img src="./assets/mouse.jpg" alt="panda">
+     </a>
+
+     <a target="_blank" href="https://www.fs.usda.gov/visit/know-before-you-go/snakes">
+         <img src="./assets/snake.jpg" alt="panda">
+
+ </div>
+         </a>
+     </div>
+ 
+     <!-- Our <a> below has an href of #top. This sends our user back to <h1 id="top">Animals</h1> at the top of our html page. -->
+     <footer>
+         <a href="#top">
+             <input type="button" value="Back To Top">
+         </a>
+     </footer>
+ 
+ </body>
+ 
+ </html>
